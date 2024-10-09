@@ -1,0 +1,1 @@
+# slick-image-compare-docs
