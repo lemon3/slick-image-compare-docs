@@ -3,6 +3,10 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import './custom.css'
+
+// slick-image-compare slider
+import '../../node_modules/slick-image-compare/dist/style.css'
 
 export default {
   extends: DefaultTheme,

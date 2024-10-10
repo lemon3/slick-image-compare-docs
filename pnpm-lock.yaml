@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      slick-image-compare:
+        specifier: ^0.4.5
+        version: 0.4.5
     devDependencies:
       vitepress:
         specifier: ^1.4.0
@@ -621,6 +625,9 @@ packages:
 
   shiki@1.22.0:
     resolution: {integrity: sha512-/t5LlhNs+UOKQCYBtl5ZsH/Vclz73GIqT2yQsCBygr8L/ppTdmpL4w3kPLoZJbMKVWtoG77Ue1feOjZfDxvMkw==}
+
+  slick-image-compare@0.4.5:
+    resolution: {integrity: sha512-r8OOqV7pU6hayl51oEw6RjPlaxmefVtJVAl1/6w9YsJFjnKATHhuas3rKRVgJgpJXx13W5NOs5xqUEuwzMTxng==}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -1358,6 +1365,8 @@ snapshots:
       '@shikijs/types': 1.22.0
       '@shikijs/vscode-textmate': 9.3.0
       '@types/hast': 3.0.4
+
+  slick-image-compare@0.4.5: {}
 
   source-map-js@1.2.1: {}
 

@@ -1,5 +1,9 @@
 # basic
+_notes
 node_modules
+
+# editor
+.vscode
 
 # vitepress
 .vitepress/cache

@@ -5,21 +5,22 @@ layout: home
 hero:
   name: "Slick Image Compare"
   text: "A fast, lightweight image compassion slider"
-  tagline: My great project tagline
+  tagline:
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting started
+      link: /intro/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Examples
+      link: /examples/basic
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Zero dependencies
+    details: no dependencies to other libraries.
+  - title: Vanilla JavaScript
+    details: just plain JavaScript.
+  - title: Customizable
+    details: Can be customized to fit your needs.
 ---
 
+Is a modern image comparison slider written in vanilla JavaScript and has no dependencies on other libraries. Best for comparing images, image retouching, color adjustments, renderings, generative content, etc.
