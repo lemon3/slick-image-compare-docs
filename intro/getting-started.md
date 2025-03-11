@@ -7,10 +7,13 @@ editLink: true
   import { onMounted } from 'vue';
   import SlickImageCompare from 'slick-image-compare';
 
+  import beforeImage from '../images/01_before.png';
+  import afterImage from '../images/01_after.png';
+
 const el = document.createElement('div');
 const options = {
-  beforeImage: '/images/01_before.png',
-  afterImage: '/images/01_after.png',
+  beforeImage,
+  afterImage,
 };
 const sic = new SlickImageCompare(el, options);
 

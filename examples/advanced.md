@@ -9,6 +9,9 @@ import SlickImageCompare from 'slick-image-compare';
 import SwitchButtons from '../Components/SwitchButtons.vue';
 import SwitchContent from '../Components/SwitchContent.vue';
 
+import beforeImage from '../images/03_before.png';
+import afterImage from '/images/03_after.png';
+
 const texts = {
   info: ['"before" image is shown', '"after" image is shown'],
   caption: ['pink shoes', 'blue shoes'],
@@ -105,8 +108,8 @@ const addEventInfo = (evt) => {
 };
 
 const options = {
-  beforeImage: '/images/03_before.png',
-  afterImage: '/images/03_after.png',
+  beforeImage,
+  afterImage,
   beforeLabel: 'pink',
   afterLabel: 'blue',
   animateIn: true,
