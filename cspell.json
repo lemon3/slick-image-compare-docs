@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+
+  "words": [
+    "mousemove",
+    "beforeshown",
+    "aftershown",
+    "interactionstart",
+    "interactionend",
+    "viewchange",
+    "mousedown",
+    "mouseup",
+    "touchstart",
+    "touchend",
+    "rgba",
+    "rgba",
+    "rgba",
+    "trackpad",
+    "srcset",
+    "Tyrol",
+    "Krimml"
+  ],
+  "dictionaries": ["lorem-ipsum"],
+  "ignorePaths": ["node_modules", ".gitignore", "pnpm-lock.yaml"]
+}
