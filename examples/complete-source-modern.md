@@ -35,7 +35,7 @@ You only need to change the path to your image files.
       const sic = new SlickImageCompare(el, options);
 
       const changeText = (evt) => {
-        // od something here
+        // do something here
         console.log(evt.detail);
       };
 
