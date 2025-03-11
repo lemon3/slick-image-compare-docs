@@ -1,10 +1,10 @@
 ---
-title: Aadvanced
+title: Advanced
 ---
 
 <script setup>
 import { onMounted, ref, reactive, useTemplateRef } from 'vue';
-import SlickImageCompare from '../node_modules/slick-image-compare';
+import SlickImageCompare from 'slick-image-compare';
 
 import SwitchButtons from '../Components/SwitchButtons.vue';
 import SwitchContent from '../Components/SwitchContent.vue';
@@ -141,13 +141,13 @@ onMounted(() => {
   });
 
   sic.addEventListener('beforeshown', (e) => {
-    console.log('beforeshown');
+    // console.log('beforeshown');
     infoHeader.value = texts.info[0];
     imageCaption.value = texts.caption[0];
   });
 
   sic.addEventListener('aftershown', (e) => {
-    console.log('aftershown');
+    // console.log('aftershown');
     infoHeader.value = texts.info[1];
     imageCaption.value = texts.caption[1];
   });

@@ -1,33 +1,33 @@
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue';
 let currentSelected = window.currentActive;
-const possibleValues = ["a", "b"];
+const possibleValues = ['a', 'b'];
 
 const changeMode = (evt) => {
   const el = evt.target;
   const name = el.dataset.name;
 
-  if (possibleValues.indexOf(name) < 0) name = "js";
+  if (possibleValues.indexOf(name) < 0) name = 'js';
   if (name === currentSelected) return;
   currentSelected = name;
 
-  const switchEvent = new CustomEvent("switch", {
+  const switchEvent = new CustomEvent('switch', {
     bubbles: true,
     detail: { currentActive: name },
   });
   window.dispatchEvent(switchEvent);
 };
 
-window.addEventListener("switch", (evt) => {
+window.addEventListener('switch', (evt) => {
   const mode = evt.detail.currentActive;
-  buttons.value.forEach(button => {
-    button.class = (mode === button.mode) ? 'active' : '';
+  buttons.value.forEach((button) => {
+    button.class = mode === button.mode ? 'active' : '';
   });
 });
 
 const buttons = ref([
-  { name: "javascript", class: "active", mode: "a" },
-  { name: "data api", class: "", mode: "b" },
+  { name: 'javascript', class: 'active', mode: 'a' },
+  { name: 'data api', class: '', mode: 'b' },
 ]);
 </script>
 

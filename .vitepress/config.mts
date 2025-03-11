@@ -1,9 +1,9 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Slick Image Compare",
-  description: "A fast, lightweight image compassion slider",
+  title: 'Slick Image Compare',
+  description: 'A fast, lightweight image compassion slider',
 
   lang: 'en-US',
   base: '/',
@@ -14,19 +14,34 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Getting started', link: '/intro/getting-started' },
-      { text: 'Examples', link: '/examples/basic' }
+      { text: 'Examples', link: '/examples/basic' },
     ],
 
     sidebar: [
       {
         text: 'Intro',
+        items: [{ text: 'Getting started', link: '/intro/getting-started' }],
+      },
+      {
+        text: 'API',
         items: [
-          { text: 'Getting started', link: '/intro/getting-started' },
+          { text: 'Options', link: '/api/options' },
+          { text: 'Methods', link: '/api/methods' },
+          { text: 'Events', link: '/api/events' },
+          { text: 'Static Functions', link: '/api/static-functions' },
         ],
       },
       {
         text: 'Examples',
         items: [
+          {
+            text: 'Complete Source Modern',
+            link: '/examples/complete-source-modern',
+          },
+          {
+            text: 'Complete Source Classic',
+            link: '/examples/complete-source-classic',
+          },
           { text: 'Basic', link: '/examples/basic' },
           { text: 'Start position', link: '/examples/start-position' },
           { text: 'Handle Angle', link: '/examples/handle-angle' },
@@ -37,16 +52,16 @@ export default defineConfig({
           { text: 'Multiple Slider', link: '/examples/multiple-slider' },
           { text: 'Advanced', link: '/examples/advanced' },
         ],
-      }
+      },
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2020-present lemon3.at'
+      copyright: 'Copyright © 2020-present lemon3.at',
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lemon3/slick-image-compare' }
-    ]
-  }
-})
+      { icon: 'github', link: 'https://github.com/lemon3/slick-image-compare' },
+    ],
+  },
+});

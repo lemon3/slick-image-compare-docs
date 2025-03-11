@@ -1,8 +1,8 @@
 <script setup>
-import { ref } from "vue";
-const elVisible = ref("a");
+import { ref } from 'vue';
+const elVisible = ref('a');
 window.addEventListener(
-  "switch",
+  'switch',
   (evt) => (elVisible.value = evt.detail.currentActive)
 );
 </script>

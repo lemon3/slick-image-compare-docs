@@ -4,7 +4,7 @@ title: Handle Angle
 
 <script setup>
 import { onMounted, ref } from 'vue';
-import SlickImageCompare from '../node_modules/slick-image-compare';
+import SlickImageCompare from 'slick-image-compare';
 
 import SwitchButtons from '../Components/SwitchButtons.vue';
 import SwitchContent from '../Components/SwitchContent.vue';

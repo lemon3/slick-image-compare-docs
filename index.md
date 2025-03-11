@@ -23,4 +23,5 @@ features:
     details: Can be customized to fit your needs.
 ---
 
+
 Is a modern image comparison slider written in vanilla JavaScript and has no dependencies on other libraries. Best for comparing images, image retouching, color adjustments, renderings, generative content, etc.
